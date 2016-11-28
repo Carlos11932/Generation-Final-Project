@@ -1,0 +1,25 @@
+<header-directive></header-directive>
+
+
+<div class="info" ng-controller="infoController">
+<div class="tech-panel" >
+	<div class="tech-tree tech-lvl3">
+		<div ng-repeat="icon in icons3">	
+			<a  href class="a-modal" id="a-modal"><img class="img-icon" ng-src={{icon.icon}} /> </a>
+		</div> 
+	</div>
+	<div class="tech-tree tech-lvl2">
+		<div ng-repeat="icon in icons2">	
+			<a href  class="a-modal" id="a-modal"><img class="img-icon" ng-src={{icon.icon}} /> </a>
+		</div> 
+	</div>
+	<div class="tech-tree tech-lvl1">
+		<div ng-repeat="icon in icons">	
+			<span ><a href class="a-modal" id="a-modal"><img class="img-icon" ng-src={{icon.icon}} /> </a><span>
+		</div>
+	</div>
+</div>
+<div class="info-card">
+	<info-directive></info-directive>
+</div>
+</div>

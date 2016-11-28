@@ -1,0 +1,165 @@
+{
+	"levels" : {
+		"level1": 
+		[
+			{
+				"id": 1,
+				"name": "Castillo",
+				"level": "1",
+				"price": "1000",
+				"description":"Edificio básico de la ciudad, de el depende los puntos de vida (HP).",
+				"icon":"data/img/castle/castle-icon.png",
+				"image":"data/img/castle/castle1s.png",
+				"tab": "1"
+			},
+			{
+				"id": 2,
+				"name": "Cuartel",
+				"level": "1",
+				"price": "600",
+				"description":"En el cuartel aumentarás el daño que inflijen tus soldados.",
+				"icon":"data/img/barracks/barracks-icon.png",
+				"image":"data/img/barracks/barracks1.png",
+				"tab": "2"
+			},
+			{
+				"id": 3,
+				"name": "Posada",
+				"level": "1",
+				"price": "300",
+				"description":"En la posada podrás reclutar tus soldados, aumentando el tamaño de tu ejército.",
+				"icon":"data/img/inn/inn-icon.png",
+				"image":"data/img/inn/inn1s.png",
+				"tab": "3"
+			},
+			{
+				"id": 4,
+				"name": "Herrería",
+				"level": "1",
+				"price": "500",
+				"description":"En la herrería fabricaras mejores armaduras para tus soldados aumentando sus puntos de vida.",
+				"icon":"data/img/smithy/smithy-icon.png",
+				"image":"data/img/smithy/smithy1.png",
+				"tab": "4"
+			},
+			{
+				"id": 5,
+				"name": "Granja",
+				"level": "1",
+				"price": "750",
+				"description":"Edificio encargado de aumentar los ingresos.",
+				"icon":"data/img/mine/mine-icon.png",
+				"image":"data/img/mine/mine1.png",
+				"tab": "5"
+			}
+		],
+
+		"level2": 
+		[
+			{
+				"id": 6,
+				"name": "Castillo",
+				"level": "2",
+				"price": "2500",
+				"description":"Edificio básico de la ciudad, de el depende los puntos de vida (HP).",
+				"icon":"data/img/castle/castle2-icon.png",
+				"image":"data/img/castle/castle2.png",
+				"tab": 1
+			},
+			{
+				"id": 7,
+				"name": "Cuartel",
+				"level": "2",
+				"price": "100",
+				"description":"En el cuartel aumentarás el daño que inflijen tus soldados.",
+				"icon":"data/img/barracks/barracks2-icon.png",
+				"image":"data/img/barracks/barracks1.png",
+				"tab": 2
+			},
+			{
+				"id": 8,
+				"name": "Posada",
+				"level": "2",
+				"price": "100",
+				"description":"En la posada podrás reclutar tus soldados, aumentando el tamaño de tu ejército.",
+				"icon":"data/img/inn/inn2-icon.png",
+				"image":"data/img/inn/inn2s.png",
+				 "tab": 3
+			},
+			{
+				"id": 9,
+				"name": "Herrería",
+				"level": "2",
+				"price": "100",
+				"description":"En la herrería fabricaras mejores armaduras para tus soldados aumentando sus puntos de vida.",
+				"icon":"data/img/smithy/smithy2-icon.png",
+				"image":"data/img/smithy/smithy2.png",
+				"tab": 4
+			},
+			{
+				"id": 10,
+				"name": "Granja",
+				"level": "2",
+				"price": "100",
+				"description":"Edificio encargado de aumentar los ingresos.",
+				"icon":"data/img/mine/mine2-icon.png",
+				"image":"data/img/mine/mine2.png",
+				"tab": 5
+			}
+		],
+
+		"level3": 
+		[
+			{
+				"id": 11,
+				"name": "Castillo",
+				"level": "3",
+				"price": "5000",
+				"description":"Edificio básico de la ciudad, de el depende los puntos de vida (HP).",
+				"icon":"data/img/castle/castle3-icon.png",
+				"image":"data/img/castle/castle3.png",
+				"tab": 1
+			},
+			{
+				"id": 12,
+				"name": "Cuartel",
+				"level": "3",
+				"price": "100",
+				"description":"En el cuartel aumentarás el daño que inflijen tus soldados.",
+				"icon":"data/img/barracks/barracks3-icon.png",
+				"image":"data/img/barracks/barracks3.png",
+				"tab": 2
+			},
+			{
+				"id": 13,
+				"name": "Posada",
+				"level": "3",
+				"price": "100",
+				"description":"En la posada podrás reclutar tus soldados, aumentando el tamaño de tu ejército.",
+				"icon":"data/img/inn/inn3-icon.png",
+				"image":"data/img/inn/inn3s.png",
+				"tab": 3
+			},
+			{
+				"id": 14,
+				"name": "Herrería",
+				"level": "3",
+				"price": "100",
+				"description":"En la herrería fabricaras mejores armaduras para tus soldados aumentando sus puntos de vida.",
+				"icon":"data/img/smithy/smithy3-icon.png",
+				"image":"data/img/smithy/smithy3.png",
+				"tab": 4
+			},
+			{
+				"id": 15,
+				"name": "Granja",
+				"level": "3",
+				"price": "100",
+				"description":"Edificio encargado de aumentar los ingresos.",
+				"icon":"data/img/mine/mine3-icon.png",
+				"image":"data/img/mine/mine3.png",
+				"tab": 5
+			}
+		]
+	}
+}

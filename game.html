@@ -1,0 +1,117 @@
+<!DOCTYPE html >
+<html lang="es">
+
+<head>
+<link rel="icon" href="data/img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="utf-8">
+
+    <title>Papadopoulos: The Game</title>
+</head>
+
+<body>
+
+    <section>
+        <ng-view></ng-view>
+    </section>
+
+    <div class="black">
+        <div class="megadiv">
+            <div id="header" class="header">
+                <div class="panelResources">
+                    <div class="resourcesText gold">
+                        <p>Oro: <span id="totalGold">100</span></p>
+                    </div>
+                    <div class="resourcesText entry">
+                        <p>Ingresos: <span id="goldEntry">50</span></p>
+                    </div>
+                    <div class="resourcesText army">
+                        <p>Ejército: <span id="totalArmy">0</span></p>
+                    </div>
+                    <div class="resourcesText turn">
+                        <p>Turno: <span id="turnControl">1</span></p>
+                    </div>
+                    <div>
+                        <a href="#" id="turnBtn"><img src="./data/img/panel/turnBtn.png" title="Pasar turno" class="turnBtn" /></a>
+                    </div>
+                    <div>
+                        <a href="#" id="infoBtn"><img src="./data/img/panel/helmBtn.png" class="infoBtn" title="Mejorar tropas" /></a>
+                    </div>
+                    <div>
+                        <a href="#" id="warBtn"><img src="./data/img/panel/warBtn.png" class="warBtn" id="warBtn" title="Atacar" /></a>
+                    </div>
+
+                </div>
+                <div class="panelName">
+                    <div class="avatar"></div>
+                    <div class="character">
+                        <div class="userName">
+                            <p>
+                                <h4 id="userName">ESQUELETI</h4></div>
+                        <div class="healBar">HP: <span id="healBar">5000</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bodyCont">
+                <div class="console">
+
+                    <div id="consolePrint" class="consolePrint">
+
+                    </div>
+                </div>
+                <div class="file1">
+                    <div class="castle">
+                        <a href="#" hidden id="castleBtn" class="castleBtn updateBtn">
+                            <img title="Subir de nivel" src="./data/img/panel/buildBtnsm.png" />
+                        </a>
+                        <img title="Castillo" id="castleImg" />
+                    </div>
+                    <div class="barracks">
+                        <a hidden class="barracksBtn updateBtn" id="barracksBtn" href="#">
+                            <img title="Subir de nivel" src="./data/img/panel/buildBtnsm.png" />
+                        </a>
+                        <img title="Cuartel" id="barracksImg" />
+                    </div>
+                </div>
+                <div class="file2">
+                    <div class="inn">
+                        <a hidden class="innBtn updateBtn" id="innBtn" href="#"><img src="./data/img/panel/buildBtnsm.png" title="Subir de nivel" /></a><img id="innImg" title="Taberna" /></div>
+                    <div class="smithy">
+                        <a hidden class="smithyBtn updateBtn" id="smithyBtn" href="#"><img src="./data/img/panel/buildBtnsm.png" title="Subir de nivel" /></a><img id="smithyImg" title="Forja" /></div>
+                    <div class="mine">
+                        <a hidden class="mineBtn updateBtn" id="mineBtn" href="#"><img src="./data/img/panel/buildBtnsm.png" title="Subir de nivel" /></a><img id="mineImg" title="Granja"/></div>
+                </div>
+                <div class="file3"> </div>
+            </div>
+            <!--<div class="footer" id="footer"></div>-->
+        </div>
+    </div>
+
+
+    <script src="./js/angular.min.js"></script>
+    <script src="./js/angular-route.js"></script>
+    <script src="./js/angular-resource.js"></script>
+    <script src="./js/scripts/castle.js"></script>
+    <script src="./js/scriptsIA/castle.js"></script>
+    <script src="./js/scripts/mine.js"></script>
+    <script src="./js/scriptsIA/mine.js"></script>
+    <script src="./js/scripts/inn.js"></script>
+    <script src="./js/scriptsIA/inn.js"></script>
+    <script src="./js/scripts/barracks.js"></script>
+    <script src="./js/scriptsIA/barracks.js"></script>
+    <script src="./js/scripts/smithy.js"></script>
+    <script src="./js/scriptsIA/smithy.js"></script>
+    <script src="./js/scripts/building.js"></script>
+    <script src="./js/scriptsIA/building.js"></script>
+    <script src="./js/scripts/combat.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/scriptsIA/iaScript.js"></script>
+    <script src="./js/scripts/turn.js"></script>
+
+
+    <!--<script src="./js/jquery-2.2.3.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>-->
+
+</body>
+
+</html>

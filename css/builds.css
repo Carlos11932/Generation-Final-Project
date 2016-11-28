@@ -1,0 +1,90 @@
+.bodyCont .console {
+  margin-top: 36px;
+  height: 494px;
+  width: 350px;
+  background-image: url("../data/img/panel/console.png");
+  float: left; }
+  .bodyCont .console .consolePrint {
+    width: 300px;
+    margin: 50px 50px 10px 10px;
+    padding-top: 20px;
+    height: 410px;
+    overflow: scroll; }
+.bodyCont .castle {
+  width: 150px;
+  height: 150px;
+  margin-left: 450px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #castleImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .castleBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .inn {
+  width: 120px;
+  height: 120px;
+  top: 400px;
+  margin-left: 950px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #innImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .innBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .barracks {
+  width: 120px;
+  height: 120px;
+  top: 450px;
+  margin-left: 500px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #barracksImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .barracksBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .smithy {
+  width: 120px;
+  height: 120px;
+  float: right;
+  top: 470px;
+  margin-left: 750px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #smithyImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .smithyBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .mine {
+  width: 120px;
+  height: 120px;
+  float: right;
+  top: 200px;
+  margin-left: 800px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #mineImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .mineBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+
+/*# sourceMappingURL=builds.css.map */

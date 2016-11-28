@@ -1,0 +1,17 @@
+users = [
+{
+	"id": 1,
+	"user":"carlos",
+	"password": "varita"
+},
+{
+	"id": 2,
+	"user":"anto",
+	"password": "generation2016"
+},
+{
+	"id": 3,
+	"user":"skeleti",
+	"password": "generation2016"
+}
+]

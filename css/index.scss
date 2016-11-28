@@ -1,0 +1,43 @@
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.log-background{
+	width:1100px;
+	height:660px;
+	margin-left:10%;
+	margin-right:10%;
+	background-image: url('../data/img/login.png');
+
+
+}
+.log-form{
+margin-top: 300px;
+width: 500px;
+height: 300px;
+position: absolute;
+margin-left: 610px;
+font-family:Vodka;
+  .btn-index{
+  
+  background: url("/data/img/xlpanel.png") no-repeat transparent;
+  width:400px;
+  height: 80px;
+  font-size: 92px;
+  text-align: center;
+  text-shadow: 0 1px 1px #9fe75c;
+  cursor: pointer;
+  font-size: 70px;
+  text-shadow: 2px 2px #000;
+
+    .btn-form{
+    
+
+    text-align: center;
+    }
+  }
+}
+.form-center{
+font-family:Vodka;
+}

@@ -1,0 +1,39 @@
+<header-directive></header-directive>
+
+<div class='container form-center'>
+  <h2 class="messageForm">Contacta con nosotros</h2>
+  <br/>
+  <div class="form-div" data-ng-controller='formController'>
+    <form name='contactForm'>
+      <div class='form-group'>
+        <label for="name" class="form-name">Nombre</label></br>
+        <input type="text" class='form-control name-input input-log' placeholder='name' 
+        name='name' data-ng-model='formData.name' required 
+        data-ng-class='{ error: exampleForm.name.$invalid && !exampleForm.$pristine }'>
+      </div>
+      
+      <div class='form-group'>
+        <label for="lastname" class="form-letters">Apellido</label></br>
+        <input type="text" class='form-control nameInput input-log' placeholder='last name' 
+        name='lastname' data-ng-model='formData.lastname' required
+        data-ng-class='{ error: exampleForm.lastname.$invalid && !exampleForm.$pristine }'>
+      </div>
+      
+      <div class='form-group'>
+        <label for="email" class="form-letters">Email</label></br>
+        <input type="email" class='form-control nameInput input-log' placeholder='example@email.com' 
+        name='email' data-ng-model='formData.email' required
+        data-ng-class='{ error: exampleForm.email.$invalid && !exampleForm.$pristine, warning: exampleForm.email.$error.email }'>
+      </div>
+       <div class='form-group'>
+        <label for="msj" class="form-letters">Mensaje</label></br>
+       <textarea type="text" class="form-control input-log" rows="4" ></textarea>
+      <input type="submit" class='btn btn-success pull-right' 
+      data-ng-click='submitForm(formData)' data-ng-disabled='!exampleForm.$valid'>
+      </div>
+    </form>
+    <br>
+    Comprueba tus dantos antes de continuar:
+    {{formData}}
+  </div>
+</div>

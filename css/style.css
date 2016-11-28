@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500);
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,100,400);
+@font-face {
+  font-family: SonOfTmU;
+  src: url(../data/fonts/SonOfTmU.ttf); }
+@font-face {
+  font-family: Vodka;
+  src: url(../data/fonts/TheSoulOfVodka.ttf); }
+a {
+  text-decoration: none;
+  color: white; }
+
+.log-background {
+  width: 1100px;
+  height: 660px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url("../data/img/login.png"); }
+
+.log-form {
+  margin-top: 300px;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  margin-left: 610px;
+  font-family: Vodka; }
+  .log-form .btn-index {
+    background: url("/data/img/xlpanel.png") no-repeat transparent;
+    width: 400px;
+    height: 80px;
+    font-size: 92px;
+    text-align: center;
+    text-shadow: 0 1px 1px #9fe75c;
+    cursor: pointer;
+    font-size: 70px;
+    text-shadow: 2px 2px #000; }
+    .log-form .btn-index .btn-form {
+      text-align: center; }
+
+.form-center {
+  font-family: Vodka; }
+
+body {
+  font-family: SonOfTmU; }
+
+.black {
+  background: #000000;
+  height: 100%; }
+
+.bold {
+  font-weight: bold; }
+
+.megadiv {
+  height: 650px;
+  width: 1200px;
+  background-image: url("../data/img/panel/grasspiece.jpg");
+  margin: 0 auto;
+  z-index: -10; }
+
+.header {
+  height: 120px; }
+  .header .panelName {
+    height: 116px;
+    width: 342px;
+    background-image: url("../data/img/panel/panel1.png"); }
+  .header .panelResources {
+    float: right;
+    height: 66px;
+    width: 901px;
+    background-image: url("../data/img/panel/panel2.png"); }
+    .header .panelResources .resourcesText {
+      color: #FFFBD9;
+      display: inline-flex;
+      font-size: 20px;
+      height: 40px;
+      margin-top: -7px;
+      z-index: 10; }
+    .header .panelResources .army {
+      margin-left: 55px;
+      width: 147px; }
+    .header .panelResources .gold {
+      margin-left: 110px;
+      width: 160px; }
+    .header .panelResources .entry {
+      margin-left: 54px;
+      width: 145px; }
+    .header .panelResources .turn {
+      margin-left: 54px;
+      width: 150px; }
+  .header .panelName .avatar {
+    width: 75px;
+    height: 75px;
+    border: 2px #695741 solid;
+    float: left;
+    margin: 10px 0 0 20px;
+    background-image: url("../data/img/vik-ico.png"); }
+  .header .panelName .character {
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px; }
+
+.turnBtn, .warBtn, .infoBtn {
+  width: 70px;
+  height: 71px;
+  float: right;
+  margin-top: 25px;
+  margin-right: 15px; }
+
+.bodyCont .console {
+  margin-top: 36px;
+  height: 494px;
+  width: 350px;
+  background-image: url("../data/img/panel/console.png");
+  float: left; }
+  .bodyCont .console .consolePrint {
+    width: 300px;
+    margin: 50px 50px 10px 10px;
+    padding-top: 20px;
+    height: 410px;
+    overflow: scroll; }
+.bodyCont .castle {
+  width: 150px;
+  height: 150px;
+  margin-left: 450px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #castleImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .castleBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .inn {
+  width: 120px;
+  height: 120px;
+  top: 400px;
+  margin-left: 950px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #innImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .innBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .barracks {
+  width: 120px;
+  height: 120px;
+  top: 450px;
+  margin-left: 500px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #barracksImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .barracksBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .smithy {
+  width: 120px;
+  height: 120px;
+  float: right;
+  top: 470px;
+  margin-left: 750px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #smithyImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .smithyBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+.bodyCont .mine {
+  width: 120px;
+  height: 120px;
+  float: right;
+  top: 200px;
+  margin-left: 800px;
+  z-index: 2;
+  position: absolute; }
+.bodyCont #mineImg {
+  bottom: 5px;
+  position: absolute; }
+.bodyCont .mineBtn {
+  z-index: 5;
+  position: absolute;
+  bottom: 5px;
+  right: 10px; }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; }
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px; }
+
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px; }
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; }
+
+::-webkit-scrollbar-thumb:active {
+  background: #000000; }
+
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px; }
+
+::-webkit-scrollbar-track:hover {
+  background: #666666; }
+
+::-webkit-scrollbar-track:active {
+  background: #333333; }
+
+::-webkit-scrollbar-corner {
+  background: transparent; }
+
+body {
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+h1, h2 {
+  text-align: center; }
+
+h1 {
+  color: #222; }
+
+h2 {
+  color: #555; }
+
+nav#menu {
+  background: #ffd800;
+  text-align: center;
+  height: 50px;
+  width: 100%; }
+
+nav#menu ul {
+  padding: 0;
+  background: white;
+  margin: 0 auto;
+  display: inline-block;
+  height: 50px; }
+
+nav#menu ul li {
+  float: left;
+  padding: 0 20px;
+  background: #ffd800;
+  list-style: none;
+  margin-right: 5px;
+  line-height: 50px;
+  height: 50px; }
+
+nav#menu ul li:nth-child(1) {
+  margin-left: 5px; }
+
+nav#menu ul li.active {
+  background: #ffd800; }
+
+nav#menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em; }
+
+nav#menu h1#sitename {
+  font-size: 1.2em;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  left: 0.5em;
+  color: white;
+  opacity: 0; }
+
+.info {
+  min-height: 698px;
+  min-width: 1360px;
+  margin-top: 10px; }
+  .info .tech-panel {
+    height: 580px;
+    width: 50%;
+    float: left; }
+    .info .tech-panel .tech-tree {
+      height: 33%; }
+    .info .tech-panel .tech-lvl1, .info .tech-panel .tech-lvl2, .info .tech-panel .tech-lvl3 {
+      display: flex;
+      margin: 0 auto; }
+    .info .tech-panel .tech-lvl1 {
+      background-image: url("../data/img/panel/panellvl1.png");
+      background-color: #E1F5A9; }
+    .info .tech-panel .tech-lvl2 {
+      background-image: url("../data/img/panel/panellvl2.png");
+      background-color: #D0FA58; }
+    .info .tech-panel .tech-lvl3 {
+      background-image: url("../data/img/panel/panellvl3.png");
+      background-color: #BFFF00; }
+    .info .tech-panel .img-icon {
+      width: 110px;
+      height: auto;
+      padding: 50px 10px; }
+  .info .info-card {
+    width: 49%;
+    height: 580px;
+    background-color: #F2F5A9;
+    float: right; }
+  .info .game-text {
+    padding: 0 15px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,67 @@
+body {
+  font-family: Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: #222;
+}
+
+h2 {
+  color: #555;
+}
+
+nav#menu {
+  //margin-top: 50px;
+  background: #ffd800;
+  text-align: center;
+  height: 50px;
+  width: 100%;
+}
+
+nav#menu ul {
+  padding: 0;
+  background: white;
+  margin: 0 auto;
+  display: inline-block;
+  height: 50px;
+}
+
+nav#menu ul li {
+  float: left;
+  padding: 0 20px;
+  background: #ffd800;
+  list-style: none;
+  margin-right: 5px;
+  line-height: 50px;
+  height: 50px;
+}
+
+nav#menu ul li:nth-child(1) {
+  margin-left: 5px;
+}
+
+nav#menu ul li.active {
+  background: #ffd800;
+}
+
+nav#menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+nav#menu h1#sitename {
+  font-size: 1.2em;
+  line-height: 50px;
+  margin: 0;
+  position: absolute;
+  left: 0.5em;
+  color: white;
+  opacity: 0;
+  
+}

@@ -1,0 +1,117 @@
+.bodyCont{
+	.console{
+		margin-top:36px;
+	    height: 494px;
+		width: 350px;
+	    background-image: url("../data/img/panel/console.png");
+	    float: left;
+    	.consolePrint{
+			width: 300px;
+	    	margin: 50px 50px 10px 10px;
+	    	padding-top:20px;
+			height: 410px;
+			overflow: scroll;
+		}
+
+	}
+	.castle{
+		width:150px;
+		height:150px;
+		//border: 2px red solid;
+		margin-left: 450px;
+		z-index:2;
+		position:absolute;
+
+	}
+	#castleImg{
+		bottom: 5px;
+		position:absolute;
+	}
+	.castleBtn{
+		z-index:5;
+		position: absolute;
+    	bottom: 5px;
+    	right: 10px;
+	}
+	.inn{
+		width:120px;
+		height:120px;
+		//border: 2px black solid;
+		top: 400px;
+    	margin-left: 950px;
+		z-index:2;
+		position:absolute;
+	}
+	#innImg{
+		bottom: 5px;
+		position:absolute;
+	}
+	.innBtn{
+		z-index:5;
+		position: absolute;
+    	bottom: 5px;
+    	right: 10px;
+	}
+	.barracks{
+		width:120px;
+		height:120px;
+		//border: 2px orange solid;
+		top: 450px;
+    	margin-left: 500px;
+		z-index:2;
+		position:absolute;
+
+	}
+	#barracksImg{
+		bottom: 5px;
+		position:absolute;
+	}
+	.barracksBtn{
+		z-index:5;
+		position: absolute;
+    	bottom: 5px;
+    	right: 10px;
+	}
+
+	.smithy{
+		width:120px;
+		height:120px;
+		//border: 2px pink solid;
+		float: right;
+		top: 470px;
+    	margin-left: 750px;
+		z-index:2;
+		position:absolute;
+	}
+	#smithyImg{
+		bottom: 5px;
+		position:absolute;
+	}
+	.smithyBtn{
+		z-index:5;
+		position: absolute;
+    	bottom: 5px;
+    	right: 10px;
+	}
+	.mine{
+		width:120px;
+		height:120px;
+		//border: 2px white solid;
+		float: right;
+		top: 200px;
+    	margin-left: 800px;
+		z-index:2;
+		position:absolute;;
+	}
+	#mineImg{
+		bottom: 5px;
+		position:absolute;
+	}
+	.mineBtn{
+		z-index:5;
+		position: absolute;
+    	bottom: 5px;
+    	right: 10px;
+	}
+
+}

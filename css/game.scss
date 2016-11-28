@@ -1,0 +1,82 @@
+body{
+	font-family:SonOfTmU;
+}
+.black{	
+	background: #000000;
+	height: 100%;
+}
+.bold{
+	font-weight: bold;
+}
+.megadiv{
+	height: 650px;
+	width: 1200px;
+	background-image: url('../data/img/panel/grasspiece.jpg');
+	 margin: 0 auto;
+	 z-index: -10;
+}
+.header{
+	height: 120px;
+	.panelName{
+		height: 116px;
+		width: 342px;
+		background-image: url("../data/img/panel/panel1.png");
+	}
+	.panelResources{
+		float:right;
+		height: 66px;
+		width: 901px;
+		background-image: url("../data/img/panel/panel2.png");
+
+		.resourcesText{
+			color: $stone1;
+			display: inline-flex;
+			font-size:20px;
+			height: 40px;
+			margin-top:-7px;
+			z-index:10;
+		}
+		.army{
+			
+			margin-left:55px;
+			width:147px;
+
+		}
+		.gold{
+			margin-left: 110px;
+			width: 160px;
+		}
+		.entry{
+			margin-left:54px;
+			width: 145px;
+		}
+		.turn{
+			margin-left:54px;
+			width:150px;
+		}
+
+	}
+	.panelName{
+		.avatar{
+			width:75px;
+			height:75px;
+			border: 2px $stone2 solid;
+			float: left;
+			margin: 10px 0 0 20px;
+			background-image: url('../data/img/vik-ico.png');
+		}
+		.character{
+			float:left;
+			margin-left:30px;
+			margin-top: 5px;
+		}
+	}
+}
+
+.turnBtn, .warBtn, .infoBtn{
+	width:70px;
+	height:71px;
+	float:right;
+	margin-top: 25px;
+	margin-right:15px;
+}

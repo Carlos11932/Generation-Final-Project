@@ -1,0 +1,35 @@
+.info {
+  min-height: 698px;
+  min-width: 1360px;
+  margin-top: 10px; }
+  .info .tech-panel {
+    height: 580px;
+    width: 50%;
+    float: left; }
+    .info .tech-panel .tech-tree {
+      height: 33%; }
+    .info .tech-panel .tech-lvl1, .info .tech-panel .tech-lvl2, .info .tech-panel .tech-lvl3 {
+      display: flex;
+      margin: 0 auto; }
+    .info .tech-panel .tech-lvl1 {
+      background-image: url("../data/img/panel/panellvl1.png");
+      background-color: #E1F5A9; }
+    .info .tech-panel .tech-lvl2 {
+      background-image: url("../data/img/panel/panellvl2.png");
+      background-color: #D0FA58; }
+    .info .tech-panel .tech-lvl3 {
+      background-image: url("../data/img/panel/panellvl3.png");
+      background-color: #BFFF00; }
+    .info .tech-panel .img-icon {
+      width: 110px;
+      height: auto;
+      padding: 50px 10px; }
+  .info .info-card {
+    width: 49%;
+    height: 580px;
+    background-color: #F2F5A9;
+    float: right; }
+  .info .game-text {
+    padding: 0 15px; }
+
+/*# sourceMappingURL=info.css.map */

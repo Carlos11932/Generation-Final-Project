@@ -1,0 +1,48 @@
+<div class="black">
+<div class="megadiv">
+  <div id="header" class="header">
+      <div class="panelResources">
+          <div class="resourcesText gold"> <p>Oro: <span id="totalGold">100</span></p></div>
+          <div class="resourcesText entry"><p>Ingresos: <span id="goldEntry">50</span></p></div>
+          <div class="resourcesText army"><p>Ejército:  <span id="totalArmy">0</span></p></div>
+          <div class="resourcesText turn"><p>Turno: <span id="turnControl">1</span></p></div>
+          <div><a href="#" id="turnBtn" ng-click="nextTurn()" ><img src="./data/img/panel/turnBtn.png"  class="turnBtn" /></a></div>
+      </div>
+      <div class="panelName">
+        <div class="avatar"></div>
+        <div class="character">
+        <div class="userName"><p><h4 id="userName">SKELE-T</h4></div>
+        <div class="healBar">HP: <span id="healBar">5000</span></div>
+      </div>
+      </div>
+  </div>
+  <div class="bodyCont">
+    <div class="console">
+    <h3>CONSOLE</h3>
+      <div id="consolePrint" class="consolePrint">
+      
+      </div>
+    </div>
+    <div class="file1">
+      <div class="castle" >
+        <a href="#" hidden id="castleBtn" class="castleBtn updateBtn" >
+          <img src="./data/img/panel/buildBtnsm.png"/>
+        </a>
+      <img title="Castillo" id="castleImg"/>
+      </div>
+      <div class="barracks">
+      <a hidden class="barracksBtn updateBtn" id="barracksBtn" href="#">
+      <img src="./data/img/panel/buildBtnsm.png"/>
+      </a>
+      <img id="barracksImg"/>
+      </div>
+    </div>
+    <div class="file2">
+          <div class="inn"><a hidden class="innBtn updateBtn" id="innBtn" href="#"><img src="./data/img/panel/buildBtnsm.png"/></a><img id="innImg"/></div>
+          <div class="smithy"><a hidden class="smithyBtn updateBtn" id="smithyBtn" href="#"><img src="./data/img/panel/buildBtnsm.png"/></a><img id="smithyImg"/></div>
+          <div class="mine"><a hidden class="mineBtn updateBtn" id="mineBtn" href="#"><img src="./data/img/panel/buildBtnsm.png"/></a><img id="mineImg"/></div>
+    </div>
+    <div class="file3"> </div>
+  </div>
+</div>
+</div>
